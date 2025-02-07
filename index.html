@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gestao de Projetos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+</head>
+<body>
+    <h1><center>Sistema de Gerenciamento de Projetos <br> para Equipes Remotas</center></h1>
+    <br>
+    <div id="login-form">
+        <h2>Login</h2><br>
+        
+        <input type="text" id="username" placeholder="Usuário">
+        <br><br>
+        <input type="password" id="password" placeholder="Senha">
+        <br><br>
+        <button onclick="login()">Entrar</button>
+    </div>
+
+    <div id="app" style="display: none; ">
+        <h2>Seus Projetos</h2>
+        <ul id="project-list"></ul>
+        <button onclick="createProject()">Criar Projeto</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
